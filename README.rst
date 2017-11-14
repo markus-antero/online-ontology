@@ -1,7 +1,7 @@
 Site details
 ============
 
-Web-page project for the Wordpress platform. The architecture is visualized:
+The project architecture is visualized:
 
 .. image:: images/UI.jpg
 
