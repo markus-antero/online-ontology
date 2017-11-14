@@ -43,6 +43,15 @@ Complete statistics for your WordPress site. Version 12.1.3.
 
 Publishing blog contents as linked data Version 0.3.
 
+Disqus Comment System
+---------------------
+Main page
+
+- https://disqus.com/api/docs/
+- https://help.disqus.com/customer/portal/articles/684744
+- https://help.disqus.com/customer/portal/articles/236206
+- https://help.disqus.com/customer/en/portal/articles/1264625-getting-started
+
 Embed Webmap
 ------------
 Build as a plugin for ARCGIS maps.
