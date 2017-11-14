@@ -12,8 +12,8 @@ public class TestMsSQL {
 		 
         try {
             String dbURL = "jdbc:sqlserver://localhost:1433";
-            String user = "sa";
-            String pass = "M1ta#%Kuuluu";
+            String user = "";
+            String pass = "";
             conn = DriverManager.getConnection(dbURL, user, pass);
             if (conn != null) {
                 DatabaseMetaData dm = (DatabaseMetaData) conn.getMetaData();

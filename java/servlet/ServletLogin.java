@@ -29,15 +29,15 @@ public class ServletLogin extends HttpServlet {
      * @see HttpServlet#HttpServlet()
      * jdbc:sqlserver://localhost:1433;" +
 			"database=ServiceProject;" +
-			"user=markus;" +
-            "password=mg1Mtw8427!\"
+			"user=;" +
+            "password="
      */
     public ServletLogin() {
         super();
         this.connection = "jdbc:sqlserver://localhost:1433;" +
 				"database=ServiceProject;" +
-				"user=markus;" +
-				"password=mg1Mtw8427!\"";
+				"user=" +
+				"password=";
          
     }
 	/**
@@ -57,8 +57,8 @@ public class ServletLogin extends HttpServlet {
         DB db1 = new DB();
         Connection dbConnection = db1.dbConnect("jdbc:sqlserver://localhost:1433;" +
 											"database=ServiceProject;" +
-											"user=markus;" +
-                							"password=mg1Mtw8427!\"" );
+											"user=;" +
+                							"password=" );
         PreparedStatement prepStmt = null;
         try {
 			//db = new DBConnection(this.connection);
@@ -126,8 +126,8 @@ public class ServletLogin extends HttpServlet {
         DB db1 = new DB();
         Connection conn = db1.dbConnect("jdbc:sqlserver://localhost:1433;" +
 											"database=ServiceProject;" +
-											"user=markus;" +
-                							"password=mg1Mtw8427!\"" );
+											"user=;" +
+                							"password=" );
         PreparedStatement prepStmt = null;;
 		try {
 			

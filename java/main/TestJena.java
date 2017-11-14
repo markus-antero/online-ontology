@@ -9,19 +9,12 @@ public class TestJena {
 	{
 		String ontologyCorp = "C:\\data\\ontologies\\ontologyRDF.owl";
 		String ontologyUser = "C:\\data\\ontologies\\UserLoginRDF.owl";
-		//LoadOntology.testJena(ontologyUser);
 		TestJena.createInstances();
 	}
 	
 	public static void createInstances (){
 		String ontologyCorp = "C:\\data\\ontologies\\ontologyRDF.owl";
 		String ontologyUser = "C:\\data\\ontologies\\UserLoginRDF.owl";
-		
-		String user     = "markus";
-		String pass     = "markus";
-		String email    = "markus@gmail.com";
-		String region   = "FIN";
-		String Industry = "Aerospace & Defense";
 		
 		String userP     = "userName";
 		String passP     = "password";
@@ -44,19 +37,3 @@ public class TestJena {
 		
 	}
 	
-//	public static void main (String [] args)
-//	{
-//		System.out.println("main");
-//		ProcessCottageRequest p = new ProcessCottageRequest();
-//		
-//		
-//		
-//		p.queryOntology = "http://localhost/markus.walden/ontologies/2014/2/cottage#Query";
-//		OntModel model = p.generateEmptyRIG (p.ontology, p.queryOntology, p.request);
-//		// provide model to generate rig document
-//		// call rig service from input service
-//		LoadOntology.getClassFromOntology(p.ontology);
-//		
-//	}
-	
-}

@@ -68,8 +68,8 @@ public class SearchCompanies extends HttpServlet {
 		DB db1 = new DB();
         Connection dbConnection = db1.dbConnect("jdbc:sqlserver://localhost:1433;" +
 											"database=ServiceProject;" +
-											"user=markus;" +
-                							"password=mg1Mtw8427!\"" );
+											"user=;" +
+                							"password=" );
         Statement stmt = null;
         ArrayList <CompanyNames> comp = 
         		new ArrayList <CompanyNames>();
@@ -202,8 +202,8 @@ public class SearchCompanies extends HttpServlet {
 		DB db1 = new DB();
         Connection dbConnection = db1.dbConnect("jdbc:sqlserver://localhost:1433;" +
 											"database=ServiceProject;" +
-											"user=markus;" +
-                							"password=mg1Mtw8427!\"" );    
+											"user=;" +
+                							"password=" );    
         String query = 
         		"SELECT [companySymbol] ,[competitorSymbol] ,[Name]  "
         		+ "FROM [ServiceProject].[dbo].[dcompanyDetails] as c "
