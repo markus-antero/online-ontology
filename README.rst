@@ -1,11 +1,11 @@
-Online Ontology
-===============
+Site details
+============
 
 Web-page project for the Wordpress platform. The architecture is visualized:
 
 .. image:: images/UI.jpg
 
-The plugins used are: 
+The plugins currently in use: 
 
 - Akismet Anti-Spam
 
@@ -43,8 +43,10 @@ Complete statistics for your WordPress site. Version 12.1.3.
 
 Publishing blog contents as linked data Version 0.3.
 
-ArcGis
-------
+Embed Webmap
+------------
+Build as a plugin for ARCGIS maps.
+
 Embed webmap blugin (embed [webmap id="52475e6edb18471780858627b40460c2"]) from source URL ( https://developers.arcgis.com/applications/15677178af9a4808961d957cc21064d3 ).
 	
 Shortcode Options:
