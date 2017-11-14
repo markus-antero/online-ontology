@@ -45,7 +45,7 @@ Publishing blog contents as linked data Version 0.3.
 
 Disqus Comment System
 ---------------------
-Main page
+Main pages:
 
 - https://disqus.com/api/docs/
 - https://help.disqus.com/customer/portal/articles/684744
