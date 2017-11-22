@@ -1,0 +1,96 @@
+Disqus
+======
+
+available public data
+
+- https://help.disqus.com/customer/portal/articles/1131785-available-public-api-data
+
+Connection Strings
+------------------
+https://disqus.com/api/3.0/trends/listThreads.json?api_key=API_PUBLIC_KEY_HERE&callback=foo
+
+https://disqus.com/api/3.0/trends/listThreads.json?api_key=N6T89OylJj7sP3NGjkMNtqQkbdsZT6LjXpJf4LGCbFcVros2RhaesPsZ7iPiUmgg&callback=foo
+
+Returns details of a user.
+	
+	- https://disqus.com/api/docs/users/details/
+		- https://disqus.com/api/3.0/users/details.json
+		
+	- Accessibility: public key, secret key
+	- Supported request methods: GET
+	- Supported formats: json, jsonp
+	- Requires authentication: no
+	- Rate limited: inherits global rate limit
+	- Arguments / Optional: attach (allows multiple), user
+	
+	by query: https://disqus.com/api/3.0/users/details.json?api_key=N6T89OylJj7sP3NGjkMNtqQkbdsZT6LjXpJf4LGCbFcVros2RhaesPsZ7iPiUmgg&user=username:Maquirer&callback=foo
+
+	/**/ foo({"code":0,"response":{"disable3rdPartyTrackers":false,"isPowerContributor":false,"isPrimary":true,
+	"id":"97031767","numFollowers":1,"rep":1.359798,"numFollowing":3,"numPosts":361,
+	"location":"","isPrivate":false,"joinedAt":"2014-03-02T14:55:59",
+	"username":"Maquirer","numLikesReceived":130,"reputationLabel":"Average","about":"","name":"maguire",
+	"url":"","numForumsFollowing":8,"profileUrl":"https://disqus.com/by/Maquirer/","reputation":1.359798,
+	"avatar":{"small":{"permalink":"https://disqus.com/api/users/avatars/Maquirer.jpg","cache":"https://c.disquscdn.com/uploads/users/9703/1767/avatar32.jpg?1480336965"},"isCustom":true,"permalink":"https://disqus.com/api/users/avatars/Maquirer.jpg","cache":"https://c.disquscdn.com/uploads/users/9703/1767/avatar92.jpg?1480336965","large":{"permalink":"https://disqus.com/api/users/avatars/Maquirer.jpg","cache":"https://c.disquscdn.com/uploads/users/9703/1767/avatar92.jpg?1480336965"}},"signedUrl":"","isAnonymous":false}});
+		
+Returns a list of posts made by the user.
+
+	- User / List posts https://disqus.com/api/docs/users/listPosts/
+		- https://disqus.com/api/3.0/users/listPosts.json
+
+	- Accessibility: public key, secret key
+	- Supported request methods: GET
+	- Supported formats: json, jsonp, rss
+	- Requires authentication: no
+	- Rate limited: inherits global rate limit	
+	- arguments / Optional: since. related, cursor, limit, user, filters, include, order.
+	
+	by query https://disqus.com/api/3.0/users/listPosts.json?api_key=N6T89OylJj7sP3NGjkMNtqQkbdsZT6LjXpJf4LGCbFcVros2RhaesPsZ7iPiUmgg&user=username:Maquirer&callback=foo
+	
+/**/ foo({"cursor":
+	{"prev":null,"hasNext":true,"next":"1490640319558839:0:0","hasPrev":false,"total":null,
+
+	"id":"1490640319558839:0:0",
+	"more":true},"code":0,"response":
+	[{"dislikes":0,"numReports":0,"likes":2,
+		
+		"message":"<p>Based on the article at Financial times \"The Brexit treaty renegotiation checklist\" ( <a href=\"https://disq.us/url?url=https%3A%2F%2Fig.ft.com%2Fbrexit-treaty-database%2F%3AKL--hodic0_oDsyqnGiGPHDqD6I&amp;cuid=792000\" rel=\"nofollow noopener\" title=\"https://ig.ft.com/brexit-treaty-database/\">https://ig.ft.com/brexit-tr...</a> ), the UK is part of 759 treaties and international agreements negotiated within the EU mandate. And thus, leaving the EU would mean these agreements no-longer apply. Hence, disorderly Brexit is volatile - it increases the risk for problems post the breakup.</p><p>Yet I doubt people are genuinely unaware of these treaty obligations.</p><p>Banking is sure to be an interesting casualty. London has a financial hub is sure to struggle ( <a href=\"https://disq.us/url?url=https%3A%2F%2Fuk.reuters.com%2Farticle%2Fuk-eu-banks-britain-debt%2Feu-bank-rescue-body-warned-banks-of-brexit-risks-for-capital-buffers-idUKKCN1C423Y%3A2JhOiSWhuxh2O9kQ0O5naffS3x4&amp;cuid=792000\" rel=\"nofollow noopener\" title=\"https://uk.reuters.com/article/uk-eu-banks-britain-debt/eu-bank-rescue-body-warned-banks-of-brexit-risks-for-capital-buffers-idUKKCN1C423Y\">https://uk.reuters.com/arti...</a> ). And the EU is sure to be looser as well. I don't know what's right and wrong in this breakup, I hope someone does :-).</p><p>- Brexit FAQ ( <a href=\"https://disq.us/url?url=https%3A%2F%2Fwww.clearygottlieb.com%2F%7E%2Fmedia%2Fcgsh%2Ffiles%2Fupdated-brexit--frequently-asked-questions.pdf%3A11zh8mZY75WwbhXjumrihKtw-pw&amp;cuid=792000\" rel=\"nofollow noopener\" title=\"https://www.clearygottlieb.com/~/media/cgsh/files/updated-brexit--frequently-asked-questions.pdf\">https://www.clearygottlieb....</a>).</p>",
+
+	"id":"3604836689","createdAt":"2017-11-07T17:43:43",
+	"author":{"username":"Maquirer","about":"","name":"maguire",
+	"disable3rdPartyTrackers":false,"isPowerContributor":false,"joinedAt":"2014-03-02T14:55:59","profileUrl":"https://disqus.com/by/Maquirer/",
+	"url":"","location":"","isPrivate":false,"signedUrl":"","isPrimary":true,"isAnonymous":false,"id":"97031767",
+	"avatar":{"small":{"permalink":"https://disqus.com/api/users/avatars/Maquirer.jpg",
+	"cache":"https://c.disquscdn.com/uploads/users/9703/1767/avatar32.jpg?1480336965"},"isCustom":true,"permalink":"https://disqus.com/api/users/avatars/Maquirer.jpg","cache":"https://c.disquscdn.com/uploads/users/9703/1767/avatar92.jpg?1480336965","large":{"permalink":"https://disqus.com/api/users/avatars/Maquirer.jpg","cache":"https://c.disquscdn.com/uploads/users/9703/1767/avatar92.jpg?1480336965"}}},
+	"media":[],"isSpam":false,"isDeletedByAuthor":false,"isDeleted":false,"parent":null,"isApproved":true,"isFlagged":false,
+	
+		"raw_message":"Based on the article at Financial times \"The Brexit treaty renegotiation checklist\" ( https://ig.ft.com/brexit-treaty-database/ ), the UK is part of 759 treaties and international agreements negotiated within the EU mandate. And thus, leaving the EU would mean these agreements no-longer apply. Hence, disorderly Brexit is volatile - it increases the risk for problems post the breakup.\n\nYet I doubt people are genuinely unaware of these treaty obligations.\n\nBanking is sure to be an interesting casualty. London has a financial hub is sure to struggle ( https://uk.reuters.com/article/uk-eu-banks-britain-debt/eu-bank-rescue-body-warned-banks-of-brexit-risks-for-capital-buffers-idUKKCN1C423Y ). And the EU is sure to be looser as well. I don't know what's right and wrong in this breakup, I hope someone does :-).\n\n- Brexit FAQ ( https://www.clearygottlieb.com/~/media/cgsh/files/updated-brexit--frequently-asked-questions.pdf 
+	
+	).","isHighlighted":false,"canVote":false,"thread":"6267822475","forum":"bloombergview","points":2,"moderationLabels":["links"],
+	"isEdited":true,"sb":false},
+	
+	###########################################
+	
+	{"dislikes":0,"numReports":0,"likes":0,
+	
+		"message":"<p>I looked into the box plots graphed and until derivatives the proportions look ok. Main indicators to correlate:<br>- Money supply (all) 90 trillion, <br>- Global Debt 215 trillion, <br>- Global real-estate 217 trillion.</p><p>The Derivative market is in 544 - 1200 trillion range. What bugs me are the range and volume.</p><p>- ( <a href=\"https://disq.us/url?url=https%3A%2F%2Fwww.math.nyu.edu%2Ffaculty%2Favellane%2FDSLecture1.pdf%3A9o3cdjJ5cvmtQsX0gA36KWnA8JY&amp;cuid=3024035\" rel=\"nofollow noopener\" title=\"https://www.math.nyu.edu/faculty/avellane/DSLecture1.pdf\">https://www.math.nyu.edu/fa...</a> ) - slides 21 - 22<br>- ( <a href=\"https://disq.us/url?url=https%3A%2F%2Fwww.bis.org%2Fstatistics%2Fderstats.htm%3Ar3Bf9eCxoOkVqMP-BuAjClLmJG0&amp;cuid=3024035\" rel=\"nofollow noopener\" title=\"https://www.bis.org/statistics/derstats.htm\">https://www.bis.org/statist...</a> ) - derivative types <br>- ( <a href=\"http://disq.us/url?url=http%3A%2F%2Fwww.economist.com%2Fnode%2F2347869%3AYPSxn4dPwKyWlmS8H92DipZdVX8&amp;cuid=3024035\" rel=\"nofollow noopener\" title=\"http://www.economist.com/node/2347869\">http://www.economist.com/no...</a> ) - WMD / Buffet</p><p>I know derivatives are the vital to any economy, but the \"keep scrolling\" is unkind atbest.</p>","
+	
+	id":"3603354638","createdAt":"2017-11-06T19:58:47",
+	"author":{"username":"Maquirer","about":"","name":"maguire","disable3rdPartyTrackers":false,"isPowerContributor":false,"joinedAt":"2014-03-02T14:55:59","profileUrl":"https://disqus.com/by/Maquirer/","url":"","location":"","isPrivate":false,"signedUrl":"","isPrimary":true,"isAnonymous":false,"id":"97031767",
+	"avatar":{"small":{"permalink":"https://disqus.com/api/users/avatars/Maquirer.jpg","cache":"https://c.disquscdn.com/uploads/users/9703/1767/avatar32.jpg?1480336965"},"isCustom":true,"permalink":"https://disqus.com/api/users/avatars/Maquirer.jpg","cache":"https://c.disquscdn.com/uploads/users/9703/1767/avatar92.jpg?1480336965","large":{"permalink":"https://disqus.com/api/users/avatars/Maquirer.jpg","cache":"https://c.disquscdn.com/uploads/users/9703/1767/avatar92.jpg?1480336965"}}},"media":[],
+	"isSpam":false,"isDeletedByAuthor":false,"isDeleted":false,"parent":3600187374,"isApproved":true,"isFlagged":false,
+	
+		"raw_message":"I looked into the box plots graphed and until derivatives the proportions look ok. Main indicators to correlate:\n- Money supply (all) 90 trillion, \n- Global Debt 215 trillion, \n- Global real-estate 217 trillion. \n\nThe Derivative market is in 544 - 1200 trillion range. What bugs me are the range and volume. \n\n- ( https://www.math.nyu.edu/faculty/avellane/DSLecture1.pdf ) - slides 21 - 22\n- ( https://www.bis.org/statistics/derstats.htm ) - derivative types \n- ( http://www.economist.com/node/2347869 ) - WMD / Buffet\n\nI know derivatives are the vital to any economy, but the \"keep scrolling\" is unkind at best.",
+		
+	"isHighlighted":false,"canVote":false,"thread":"6243736871","forum":"visualcapitalist","points":0,"moderationLabels":["links"],"isEdited":true,"sb":false}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

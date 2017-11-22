@@ -15,7 +15,7 @@ python -m pip install --upgrade pip
 
 Wordpress team development
 --------------------------
-
+- https://gist.github.com/waqasjamal/7428185	wordpress / python - post upload
 - http://spark.apache.org/docs/latest/
 - http://orange-bioinformatics.readthedocs.io/en/latest/
 - https://github.com/olefredrik/FoundationPress
