@@ -1,31 +1,44 @@
 Python
 ======
 
-Will breakdown - non stable, conda stops working.
+System
+------
+- http://systems-sciences.uni-graz.at/etextbook/content.html
+- https://www2.clarku.edu/~djoyce/complex/
 
-eclipse - fix interpreter for python projects
-	Install missing packages
+twitter
+-------
+- https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/
+
+SSH
+---
+- https://serversforhackers.com/c/ssh-tricks
+- https://serversforhackers.com/c/connecting-to-mysql-via-ssh
+
+RDF
+---
+- http://www.mkbergman.com/414/large-scale-rdf-graph-visualization-tools/
+- http://philogb.github.io/jit/index.html
+- http://schema.org/docs/gs.html
+- https://coffeecode.net/rdfa/codelab/
+- https://rdfa.info/
+- https://json-ld.org/
+- https://developers.google.com/search/docs/guides/intro-structured-data
+
+Git
+---
+- https://github.com/disqus/mysql-formula
+- https://docs.saltstack.com/en/latest/topics/development/conventions/formulas.html
+- https://github.com/disqus/django-modeldict
+- https://github.com/disqus/django-metaredirect
+- https://github.com/mozilla/lightbeam/blob/master/index.html
+- https://github.com/tesseract-ocr
 	
 python -m pip install --upgrade pip
 
 - https://pro.arcgis.com/en/pro-app/
 - http://geopandas.org/ 
 - https://colorlib.com/wp/wordpress-themes-for-programmers/
-
-
-Wordpress team development
---------------------------
-- https://gist.github.com/waqasjamal/7428185	wordpress / python - post upload
-- http://spark.apache.org/docs/latest/
-- http://orange-bioinformatics.readthedocs.io/en/latest/
-- https://github.com/olefredrik/FoundationPress
-- https://foundation.zurb.com/sites.html
-- https://understrap.com/
-- https://www.lyrathemes.com/bootstrap-wordpress-theme-tutorial-1/
-- https://code.tutsplus.com/series/how-theme-frameworks-actually-work--cms-713
-- https://wpshout.com/wordpress-theme-development/
-
-- https://www.youtube.com/watch?v=RV68DzVu7iE
 
 Orange canvas
 -------------
@@ -146,20 +159,24 @@ The following packages will be UPDATED:
     - matplotlib:                    2.1.0-py36h11b4b9c_0               --> 2.1.0-py36_1          conda-forge
     - pillow:                        4.2.1-py36hdb25ab2_0               --> 4.3.0-py36_1          conda-forge
 	
-MongoDB, MariaDB, MSSQLDB
--------------------------
+twitter
+-------
+(C:\python3) C:\Users\Markus.Walden>conda install -c conda-forge tweepy
+Fetching package metadata ...............
+Solving package specifications: .
+Warning: 2 possible package resolutions (only showing differing packages):
+  - conda-forge::blinker-1.4-py35_0
+  - conda-forge::blinker-1.4-py_0
 
-'mssql+pyodbc://markus:Kukkuu!@localhost:1433/finance?driver=SQL+Server+Native+Client+11.0'
+Package plan for installation in environment C:\python3:
 
-Mongo DB - conda install -c anaconda pymongo 
+The following NEW packages will be INSTALLED:
+    blinker:           1.4-py35_0   conda-forge
+    oauthlib:          2.0.6-py_0   conda-forge
+    pyjwt:             1.5.3-py_0   conda-forge
+    pysocks:           1.6.7-py35_0 conda-forge
+    requests-oauthlib: 0.8.0-py35_1 conda-forge
+    tweepy:            3.5.0-py35_0 conda-forge
+    win_inet_pton:     1.0.1-py35_1 conda-forge
 
-	- License: Apache
-	- Home: http://github.com/mongodb/mongo-python-driver
-	- Development: https://github.com/mongodb/mongo-python-driver
-	- Documentation: http://api.mongodb.org/python/
-	- 8158 total downloads 
 
-Disqus
-------
-- pip install -i https://pypi.anaconda.org/pypi/simple disqus-python
-- https://disqus.com/api/3.0/trends/listThreads.json?api_key=N6T89OylJj7sP3NGjkMNtqQkbdsZT6LjXpJf4LGCbFcVros2RhaesPsZ7iPiUmgg&callback=foo
