@@ -33,16 +33,16 @@ Data sources
 (msm) multi-state Markov
 ------------------
 
-The msm package for R (R Development Core Team 2010), available from http://CRAN.R-project.org/package=msm. msm can be used to a Markov model with any number of states and any pattern of transitions to panel data, and includes several extensions such as hidden Markov models and models whose transition intensities vary  with individual-specific or time-varying covariates. msm was motivated by studies of chronic diseases in medicine, and is frequently used in this area (Jackson et al. 2003; Sharples et al.
+	The msm package for R (R Development Core Team 2010), available from http://CRAN.R-project.org/package=msm. msm can be used to a Markov model with any number of states and any pattern of transitions to panel data, and includes several extensions such as hidden Markov models and models whose transition intensities vary  with individual-specific or time-varying covariates. msm was motivated by studies of chronic diseases in medicine, and is frequently used in this area (Jackson et al. 2003; Sharples et al.
 
 Basel2 (second Basel accord)
 ----------------------------
 
-Basel II is the second of the Basel Accords, (now extended and partially superseded[clarification needed] by Basel III), which are recommendations on banking laws and regulations issued by the Basel Committee on Banking Supervision.
+	Basel II is the second of the Basel Accords, (now extended and partially superseded[clarification needed] by Basel III), which are recommendations on banking laws and regulations issued by the Basel Committee on Banking Supervision.
 
-Basel II, initially published in June 2004, was intended to amend international standards that controlled how much capital banks need to hold to guard against the financial and operational risks banks face. These rules sought to ensure that the greater the risk to which a bank is exposed, the greater the amount of capital the bank needs to hold to safeguard its solvency and economic stability. Basel II attempted to accomplish this by establishing risk and capital management requirements to ensure that a bank has adequate capital for the risk the bank exposes itself to through its lending, investment and trading activities. One focus was to maintain sufficient consistency of regulations so to limit competitive inequality amongst internationally active banks.
+	Basel II, initially published in June 2004, was intended to amend international standards that controlled how much capital banks need to hold to guard against the financial and operational risks banks face. These rules sought to ensure that the greater the risk to which a bank is exposed, the greater the amount of capital the bank needs to hold to safeguard its solvency and economic stability. Basel II attempted to accomplish this by establishing risk and capital management requirements to ensure that a bank has adequate capital for the risk the bank exposes itself to through its lending, investment and trading activities. One focus was to maintain sufficient consistency of regulations so to limit competitive inequality amongst internationally active banks.
 
-Basel II was implemented in the years prior to 2008, and was only to be implemented in early 2008 in most major economies;[1][2][3] that year's Financial crisis intervened before Basel II could become fully effective. As Basel III was negotiated, the crisis was top of mind and accordingly more stringent standards were contemplated and quickly adopted in some key countries including in Europe and the USA.
+	Basel II was implemented in the years prior to 2008, and was only to be implemented in early 2008 in most major economies;[1][2][3] that year's Financial crisis intervened before Basel II could become fully effective. As Basel III was negotiated, the crisis was top of mind and accordingly more stringent standards were contemplated and quickly adopted in some key countries including in Europe and the USA.
 
 	
 Relations 
@@ -74,16 +74,16 @@ Branches
 ========
 IRBA (Internal ratings-based approach)
 --------------------------------------
-Under the Basel II guidelines, banks are allowed to use their own estimated risk parameters for the purpose of calculating regulatory capital. This is known as the internal ratings-based (IRB) approach to capital requirements for credit risk. Only banks meeting certain minimum conditions, disclosure requirements and approval from their national supervisor are allowed to use this approach in estimating capital for various exposures.[1][2]
+	Under the Basel II guidelines, banks are allowed to use their own estimated risk parameters for the purpose of calculating regulatory capital. This is known as the internal ratings-based (IRB) approach to capital requirements for credit risk. Only banks meeting certain minimum conditions, disclosure requirements and approval from their national supervisor are allowed to use this approach in estimating capital for various exposures.[1][2]
 
 
 IFRS9 
 -----
-IFRS 9 Financial Instruments issued on 24 July 2014 is the IASB's replacement of IAS 39 Financial Instruments: Recognition and Measurement. The Standard includes requirements for recognition and measurement, impairment, derecognition and general hedge accounting. The IASB completed its project to replace IAS 39 in phases, adding to the standard as it completed each phase.
+	IFRS 9 Financial Instruments issued on 24 July 2014 is the IASB's replacement of IAS 39 Financial Instruments: Recognition and Measurement. The Standard includes requirements for recognition and measurement, impairment, derecognition and general hedge accounting. The IASB completed its project to replace IAS 39 in phases, adding to the standard as it completed each phase.
 
-The version of IFRS 9 issued in 2014 supersedes all previous versions and is mandatorily effective for periods beginning on or after 1 January 2018 with early adoption permitted (subject to local endorsement requirements). For a limited period, previous versions of IFRS 9 may be adopted early if not already done so provided the relevant date of initial application is before 1 February 2015.
+	The version of IFRS 9 issued in 2014 supersedes all previous versions and is mandatorily effective for periods beginning on or after 1 January 2018 with early adoption permitted (subject to local endorsement requirements). For a limited period, previous versions of IFRS 9 may be adopted early if not already done so provided the relevant date of initial application is before 1 February 2015.
 
-IFRS 9 does not replace the requirements for portfolio fair value hedge accounting for interest rate risk (often referred to as the ‘macro hedge accounting’ requirements) since this phase of the project was separated from the IFRS 9 project due to the longer term nature of the macro hedging project which is currently at the discussion paper phase of the due process. In April 2014, the IASB published a Discussion Paper Accounting for Dynamic Risk management: a Portfolio Revaluation Approach to Macro Hedging. Consequently, the exception in IAS 39 for a fair value hedge of an interest rate exposure of a portfolio of financial assets or financial liabilities continues to apply.
+	IFRS 9 does not replace the requirements for portfolio fair value hedge accounting for interest rate risk (often referred to as the ‘macro hedge accounting’ requirements) since this phase of the project was separated from the IFRS 9 project due to the longer term nature of the macro hedging project which is currently at the discussion paper phase of the due process. In April 2014, the IASB published a Discussion Paper Accounting for Dynamic Risk management: a Portfolio Revaluation Approach to Macro Hedging. Consequently, the exception in IAS 39 for a fair value hedge of an interest rate exposure of a portfolio of financial assets or financial liabilities continues to apply.
 
 - https://www.iasplus.com/en/standards/ifrs/ifrs9
 
@@ -94,52 +94,52 @@ Matlab
 	
 PD (Probability of default)
 ---------------------------
-Probability of default (PD) is a financial term describing the likelihood of a default over a particular time horizon. It provides an estimate of the likelihood that a borrower will be unable to meet its debt obligations.[1][2]
+	Probability of default (PD) is a financial term describing the likelihood of a default over a particular time horizon. It provides an estimate of the likelihood that a borrower will be unable to meet its debt obligations.[1][2]
 
-PD is used in a variety of credit analyses and risk management frameworks. Under Basel II, it is a key parameter used in the calculation of economic capital or regulatory capital for a banking institution.
+	PD is used in a variety of credit analyses and risk management frameworks. Under Basel II, it is a key parameter used in the calculation of economic capital or regulatory capital for a banking institution.
 
-PD is closely linked to the Expected Loss, which is defined as the product of the PD, the Loss Given Default (LGD) and the Exposure at Default (EAD).[3][4]
+	PD is closely linked to the Expected Loss, which is defined as the product of the PD, the Loss Given Default (LGD) and the Exposure at Default (EAD).[3][4]
 
 - https://en.wikipedia.org/wiki/Probability_of_default
 
 	
 LGD (Loss given default)
 ------------------------
-Loss given default or LGD is the share of an asset that is lost if a borrower defaults.
+	Loss given default or LGD is the share of an asset that is lost if a borrower defaults.
 
-It is a common parameter in Risk Models and also a parameter used in the calculation of Economic Capital, Expected loss or Regulatory Capital under Basel II for a banking institution. This is an attribute of any exposure on bank's client. Exposure is the amount that one may lose in an investment.
+	It is a common parameter in Risk Models and also a parameter used in the calculation of Economic Capital, Expected loss or Regulatory Capital under Basel II for a banking institution. This is an attribute of any exposure on bank's client. Exposure is the amount that one may lose in an investment.
 
-The LGD is closely linked to the Expected Loss, which is defined as the product of the LGD, the Probability of Default (PD) and the Exposure at Default (EAD).
+	The LGD is closely linked to the Expected Loss, which is defined as the product of the LGD, the Probability of Default (PD) and the Exposure at Default (EAD).
 
 - https://en.wikipedia.org/wiki/Loss_given_default
 		
 
 EAD (Exposure at default)
 -------------------------
-Exposure at default or (EAD) is a parameter used in the calculation of economic capital or regulatory capital under Basel II for a banking institution. It can be defined as the gross exposure under a facility upon default of an obligor.[1]
+	Exposure at default or (EAD) is a parameter used in the calculation of economic capital or regulatory capital under Basel II for a banking institution. It can be defined as the gross exposure under a facility upon default of an obligor.[1]
 
-Outside of Basel II, the concept is sometimes known as Credit Exposure (CE). It represents the immediate loss that the lender would suffer if the borrower (counterparty) fully defaults on his debt.
+	Outside of Basel II, the concept is sometimes known as Credit Exposure (CE). It represents the immediate loss that the lender would suffer if the borrower (counterparty) fully defaults on his debt.
 
-The EAD is closely linked to the expected loss, which is defined as the product of the EAD, the probability of default (PD) and the loss given default (LGD).
+	The EAD is closely linked to the expected loss, which is defined as the product of the EAD, the probability of default (PD) and the loss given default (LGD).
 
 - https://www.eota.eu/en-GB/content/what-is-an-ead/30/
 
 	
 ECL (Express Credit Line)
 -------------------------
-Loans Secured by Eligible Restricted & Control Stock
+	Loans Secured by Eligible Restricted & Control Stock
 
-Express Credit Line (ECL) Loans
-A flexible line of credit using eligible securities in your brokerage account as collateral. Offered by Morgan Stanley Smith Barney LLC.
+	Express Credit Line (ECL) Loans
+	A flexible line of credit using eligible securities in your brokerage account as collateral. Offered by Morgan Stanley Smith Barney LLC.
 
-Margin Loans
-A traditional brokerage loan enabling the purchase of additional securities to diversify your investment portfolio — an effective strategy to potentially expedite ownership requirements. Offered by Morgan Stanley Smith Barney LLC.
+	Margin Loans
+	A traditional brokerage loan enabling the purchase of additional securities to diversify your investment portfolio — an effective strategy to potentially expedite ownership requirements. Offered by Morgan Stanley Smith Barney LLC.
 
-Portfolio Loan Account (PLA)
-A securities based loan offered by Morgan Stanley Bank, N.A. A PLA loan/line of credit may be a cost-effective financing alternative for qualified applicants.
+	Portfolio Loan Account (PLA)
+	A securities based loan offered by Morgan Stanley Bank, N.A. A PLA loan/line of credit may be a cost-effective financing alternative for qualified applicants.
 
-Tailored Lending
-Uses different assets and asset classes as collateral based on your unique needs. Offered by Morgan Stanley Private Bank, National Association.
+	Tailored Lending
+	Uses different assets and asset classes as collateral based on your unique needs. Offered by Morgan Stanley Private Bank, National Association.
 
 - https://www.morganstanley.com/spc/knowledge/managing-equity/executive-services/products-services-for-executives/liquidity-strategies.html
 
